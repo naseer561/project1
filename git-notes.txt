@@ -1,0 +1,30 @@
+First time initiation
+1. git init            --> Intialize folder, then it will become repository(repo)-> form this point it will start tracking folder
+2. Add/change files or code or program
+3. git status          --> always verify before you do any changes
+4. git add <filename>  --> this command will move files to stage
+5. git status          --> verify after adding to stage
+6. git commit -m "started my new project added new file"
+7. git status         --> after commit you will not find any changes in stage location
+8. git log            --> it will show all history of commits
+
+Git branch
+1. git branch                     --> to check existing branches
+2. git checkout -b <branch_name>  --> option -b will create branch and switch to new branch
+
+Git hub
+if you want to push your code first time into github
+1. git remote add origin https://github.com/naseer561/project1.git   --> this is only one time to connect git hub
+
+
+1.git pull --> to make sure your main/master branch(in your laptop/local) is up to date from git hub
+2.git checkout -b feature/new-branch --> this is to create new branch
+3.#edit files and run python code and save code/file
+4.git status --> check status of files
+5.git add .  --> add all unstaged files to staged 
+6.git commit -m "message" --> this is the location you commiting data of your code
+7.git push  #if this is new branch it will give additional command if new branch is pushed (git push --set-upstream origin feature/python-test)
+8. #go to GitHub repository and choose your feature branch(feature/new-branch)
+9.#it will show you compare and pull button. press that button and view your changes and submit.
+10.#Doveloper or your team members will review and approve
+11.#finally once it is approved you will see merge button so you can merge changes to main/master branch
